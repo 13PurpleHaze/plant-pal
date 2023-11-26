@@ -1,7 +1,5 @@
-import Icon from './Icon';
-import Button from './Button';
-import CheckBox from './CheckBox';
-import TextField from './TextField';
-import CardReminder from './CardReminder';
-
-export { Icon, Button, CheckBox, TextField, CardReminder };
+export { default as Icon } from './Icon';
+export { default as Button } from './Button';
+export { default as TextField } from './TextField';
+export { default as CheckBox } from './CheckBox';
+export { default as CardReminder } from './CardReminder';
